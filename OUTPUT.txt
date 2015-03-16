@@ -1,0 +1,98 @@
+/***************************************************************************
+* AUTHOR			: TALON BAKER
+* ASSIGNMENT # 4	: QUEUE DEQUE & VECTOR
+* CLASS				: CS1D
+* SECTION			: TTH - 5:30PM
+* DUE DATE			: 2/17/15
+**************************************************************************/
+
+Part 1) Using wrappers! Pushing the strings
+
+Contents: A man, a plan, a canal, Panama
+Was it a car or a cat I saw?
+Sit on a potato pan, Otis
+Isn’t this class cool?
+
+
+empty: No
+Size: 4
+Front: A man, a plan, a canal, Panama
+Popping: A man, a plan, a canal, Panama
+Contents: Was it a car or a cat I saw?
+Sit on a potato pan, Otis
+Isn’t this class cool?
+
+
+Popping: Was it a car or a cat I saw?
+Contents: Sit on a potato pan, Otis
+Isn’t this class cool?
+
+
+Popping: Sit on a potato pan, Otis
+Contents: Isn’t this class cool?
+
+
+Popping: Isn’t this class cool?
+Contents: The list is currently empty
+
+
+empty: Yes
+Size: 0
+Front: Nothing in list. Nothing to return
+
+Part 2, option 2: Implementing a vector ADT using doubly linked list
+
+Using the previous doubly linked list class to make my vector ADT
+Pushing 50, 60, 40, 10, 90, 30
+Contents: 
+50
+Contents: 
+50
+60
+Contents: 
+50
+60
+40
+Contents: 
+50
+60
+40
+10
+Contents: 
+50
+60
+40
+10
+90
+Contents: 
+50
+60
+40
+10
+90
+30
+
+Popping the list of all it's elements
+
+Contents: 
+50
+60
+40
+10
+90
+Contents: 
+50
+60
+40
+10
+Contents: 
+50
+60
+40
+Contents: 
+50
+60
+Contents: 
+50
+Contents: 
+The list is currently empty
